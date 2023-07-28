@@ -1,0 +1,166 @@
+
+header	{
+		text-align: center;
+		font-size: 50px;
+		font-family: Lora;
+		background-color: lightgray;
+}
+
+/* Item section formatting and style */
+
+#contentRows {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+}
+
+.buttonId {
+    margin-top: 5px;
+    margin-left: 1px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.buttonName {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.buttonPrice {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.buttonQuantity {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#contentRows > div {
+    border: 2px solid black;
+}
+
+#contentRows > div:hover {
+    background-color: #b3ffff;
+}
+
+/* Money section formatting and styling */
+
+#topContainer {
+    display: grid;
+    grid-gap: 10px;
+}
+
+#totalMoney {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background-color: ghostwhite;
+}
+
+/* Money button formatting and styling */
+
+#moneyButtons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* makes $ buttons 2 X 2 */
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+#dollar {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+#dollar:hover {
+    background-color: #daffb3;
+}
+
+#quarter {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+#quarter:hover {
+    background-color: #daffb3;
+}
+
+#dime {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+#dime:hover {
+    background-color: #daffb3;
+}
+
+#nickel {
+    border: 1px solid black;
+    font-weight: 500;
+}
+
+#nickel:hover {
+    background-color: #daffb3;
+}
+
+/* Messages section formatting and style */
+
+#displayMessages {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background-color: ghostwhite;
+}
+
+#displayItemId {
+    width: 30%;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: ghostwhite;
+}
+
+#displayItem {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+#makePurchase {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#makePurchase:hover {
+    background-color: #daffb3;
+}
+
+/* Change section formatting and style */
+
+#displayChange {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    background-color: ghostwhite;
+}
+
+#changeReturn {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#changeReturn:hover {
+    background-color: #daffb3;
+}
